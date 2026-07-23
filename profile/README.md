@@ -14,6 +14,15 @@
 
   ---
 
+  ## Nuestros productos
+
+  | Producto | Qué resuelve | Diferenciación interna |
+  |---|---|---|
+  | **MiSplash** | Presencia online + gestión para PyMEs: reservas, tienda y panel en una sola plataforma | Tres modos según el negocio: **Agenda** (servicios y turnos), **Ecommerce** (tienda online) y **Full** (ambos unificados) |
+  | **ProyectoGestor** | Gestión integral de organizaciones, colectivos y proyectos independientes | Módulos activables por organización: finanzas, recaudación, calendario, integrantes y auditoría |
+
+  ---
+
   ## Qué es MiSplash
 
   MiSplash es una plataforma SaaS que le da a cualquier negocio de servicios o ecommerce su propia mini-web profesional, con reservas online, tienda, gestión de clientes y comunicación automática —
@@ -73,12 +82,26 @@
   - **Cupos por servicio**: clases grupales, talleres y servicios uno a uno conviven en la misma agenda
   - **Historial de precios**: cada cambio queda registrado, los cobros pasados mantienen el precio histórico
 
-  ## También hacemos
+  ## Qué es ProyectoGestor
 
-  Un **sistema de gestión para organizaciones y proyectos independientes**: finanzas, recaudación
-  por rifas, calendario de actividades, gestión de integrantes y auditoría. Ya opera con
-  organizaciones reales y evoluciona hacia una plataforma multi-organización de la misma familia
-  de productos.
+  ProyectoGestor es el segundo producto de la casa: un sistema de gestión integral para
+  organizaciones, colectivos y proyectos independientes que necesitan ordenar su operación
+  sin herramientas dispersas. Ya opera con organizaciones reales y evoluciona hacia una
+  plataforma multi-organización.
+
+  ### Módulos
+
+  | Módulo | Qué hace |
+  |---|---|
+  | **Finanzas** | Movimientos de ingresos y egresos, reportes y exportación |
+  | **Recaudación** | Campañas de rifas con rangos asignados por vendedor y seguimiento de vendidas |
+  | **Calendario** | Actividades, ensayos y eventos de la organización en un solo lugar |
+  | **Integrantes** | Padrón del equipo con roles diferenciados (administrador, gestor, integrante) |
+  | **Auditoría** | Registro de cada acción sensible: quién hizo qué y cuándo |
+  | **Perfil configurable** | Branding, colores y textos propios de cada organización |
+
+  Igual que MiSplash tiene sus modos Agenda, Ecommerce y Full, ProyectoGestor se adapta
+  activando los módulos que cada organización necesita.
 
   ## Stack técnico
 
