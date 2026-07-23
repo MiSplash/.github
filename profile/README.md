@@ -1,9 +1,6 @@
 <div align="center">
 
-  <!-- REEMPLAZAR: subí un banner a /profile/banner.png y descomentá esta línea -->
-  <!-- <img src="./profile/banner.png" alt="Splash" width="100%" /> -->
-
-  # Splash
+  # MiSplash
 
   ### Tu negocio online, sin instalar nada.
 
@@ -11,15 +8,15 @@
 
   <br />
 
-  [Sitio web](https://splash.app) · [Probá la demo](https://splash.app/t/barberia) · [Ver planes](https://splash.app/planes) · [Contacto](mailto:hola@splash.app)
+  [Sitio web](https://misplash.com) · [Probá la demo](https://misplash.com/t/barberia) · [Contacto](mailto:uysplash@gmail.com) · [Instagram](https://instagram.com/misplashuy)
 
   </div>
 
   ---
 
-  ## Qué es Splash
+  ## Qué es MiSplash
 
-  Splash es una plataforma SaaS que le da a cualquier negocio de servicios o ecommerce su propia mini-web profesional, con reservas online, tienda, gestión de clientes y comunicación automática —
+  MiSplash es una plataforma SaaS que le da a cualquier negocio de servicios o ecommerce su propia mini-web profesional, con reservas online, tienda, gestión de clientes y comunicación automática —
   todo desde un único panel y sin que el dueño tenga que ser técnico.
 
   Apuntamos a un público concreto: el barbero que sigue agendando por WhatsApp, la esteticista con un Excel de turnos, el gimnasio que pierde reservas porque no contesta a tiempo, la tienda que
@@ -37,41 +34,50 @@
 
   ## Lo que hace
 
-  - **Página pública** en `splash.app/t/tu-negocio` con catálogo, branding propio y reservas online
+  - **Página pública** en `misplash.com/t/tu-negocio` con catálogo, branding propio y reservas online
   - **Agenda inteligente** con disponibilidad real cruzando horarios del negocio, del empleado y cupos del servicio
   - **Ecommerce completo** con categorías, stock, carrito, checkout y gestión de pedidos
   - **Panel de gestión** con dashboard, finanzas, historial de precios, clientes y reseñas verificadas
-  - **Comunicación automática** por email y WhatsApp: confirmaciones, recordatorios 24 horas antes, pedidos de reseña post-servicio
-  - **Diseño configurable** con modo claro y oscuro, paleta y tipografía elegidas por cada negocio
+  - **Comunicación automática** por email: confirmaciones, recordatorios 24 horas antes, campañas a clientes
+  - **Diseño configurable** con temas, paleta y branding elegidos por cada negocio
   - **Cobros recurrentes** integrados con MercadoPago
 
   ## Cómo arranca un negocio
 
-  1. Se registra en `splash.app` — catorce días gratis, sin tarjeta
-  2. Onboarding guiado de cinco pasos: bienvenida, apariencia, empleados, servicios, finalización
-  3. Comparte su link público `splash.app/t/su-nombre` por Instagram, WhatsApp o donde quiera
+  1. Se registra en `misplash.com` — catorce días gratis, sin tarjeta
+  2. Onboarding guiado paso a paso: bienvenida, apariencia, empleados, servicios y publicación
+  3. Comparte su link público `misplash.com/t/su-nombre` por Instagram, WhatsApp o donde quiera
   4. Empieza a recibir reservas o ventas el mismo día
-  5. Al terminar el trial, elige un plan según el tamaño del negocio
+  5. Al terminar el trial, elige el plan según el tamaño del negocio
 
-  ## Planes
+  ## Productos y planes
 
-  | Plan | Pensado para | Idea general |
+  Tres productos según lo que el negocio necesite — **MiSplash Agenda** (servicios y turnos),
+  **MiSplash Ecommerce** (tienda online) y **MiSplash Full** (ambos en un panel unificado) — cada uno en dos niveles:
+
+  | Nivel | Pensado para | Idea general |
   |---|---|---|
   | **Demo** | Probar el producto | Catorce días gratis, sin tarjeta, sin compromiso |
-  | **Básico** | Profesional independiente | Lo esencial para arrancar a recibir reservas |
-  | **Medio** | PyME con equipo y marketing | Suma empleados, productos y campañas |
-  | **Pro** | Negocios en escala | Sin límites, soporte prioritario |
+  | **Emprendedor** | Profesional independiente | Lo esencial para arrancar a recibir reservas o vender |
+  | **Pro** | PyME con equipo | Suma empleados, campañas, finanzas, reseñas y ofertas |
+  | **Add-on Ilimitados** | Negocios en escala | Elimina todos los límites sobre el plan Pro |
 
-  Precios actualizados en [splash.app/planes](https://splash.app/planes).
+  Precios actualizados en [misplash.com](https://misplash.com).
 
   ## Diferenciales
 
   - **Tres productos en una plataforma**: agenda, ecommerce o ambos, según lo que el negocio necesite
-  - **Hecho para Uruguay**: precios en pesos, MercadoPago nativo, WhatsApp integrado, español rioplatense
+  - **Hecho para Uruguay**: precios en pesos, MercadoPago nativo, WhatsApp del negocio integrado, español rioplatense
   - **Onboarding asistido**: el dueño del negocio queda operativo sin tutoriales ni soporte
   - **Sistema de reseñas con validación**: solo reseñan clientes con reservas completadas
   - **Cupos por servicio**: clases grupales, talleres y servicios uno a uno conviven en la misma agenda
   - **Historial de precios**: cada cambio queda registrado, los cobros pasados mantienen el precio histórico
+
+  ## También hacemos
+
+  **MurgaGestión** — sistema de gestión para agrupaciones y proyectos independientes: finanzas,
+  rifas por rangos, calendario de actividades, plantel y auditoría. Nació sirviendo a una agrupación
+  de carnaval y evoluciona hacia una plataforma reutilizable para cualquier colectivo organizado.
 
   ## Stack técnico
 
@@ -85,8 +91,7 @@
   - **Cola de jobs**: sync en desarrollo, database en producción
   - **Cobros**: MercadoPago Subscriptions
   - **Email**: SMTP estándar (log driver en desarrollo)
-  - **WhatsApp**: Twilio o UltraMSG
-  - **Hosting objetivo**: Hostinger con LiteSpeed
+  - **Hosting**: Hostinger con LiteSpeed
   - **Arquitectura**: multi-tenant con `BelongsToTenant` trait y global scope de Eloquent, resolución por slug en la URL pública
 
   El repo principal es privado mientras estamos en pre-lanzamiento.
@@ -95,8 +100,9 @@
 
   ## Estado del proyecto
 
-  Splash está en desarrollo activo, en etapa pre-lanzamiento. El producto ya soporta los tres modos (agenda, ecommerce, full), tiene onboarding completo, sistema de planes funcional, panel de
-  superadmin con métricas y flujo de cobros listo para conectar.
+  MiSplash está en desarrollo activo, en etapa pre-lanzamiento con los primeros negocios reales a bordo.
+  El producto ya soporta los tres modos (agenda, ecommerce, full), tiene onboarding completo, sistema de
+  planes funcional con activación self-service, tenant demo público y panel de superadmin con métricas.
 
   ## Equipo
 
@@ -104,9 +110,9 @@
 
   ## Contacto
 
-  - Sitio: [splash.app](https://splash.app) <!-- REEMPLAZAR si el dominio difiere -->
-  - Email: [hola@splash.app](mailto:hola@splash.app) <!-- REEMPLAZAR -->
-  - Instagram: [@holasplash](https://instagram.com/holasplash) <!-- REEMPLAZAR -->
+  - Sitio: [misplash.com](https://misplash.com)
+  - Email: [uysplash@gmail.com](mailto:uysplash@gmail.com)
+  - Instagram: [@misplashuy](https://instagram.com/misplashuy)
 
   ---
 
