@@ -75,9 +75,10 @@
 
   ## También hacemos
 
-  **MurgaGestión** — sistema de gestión para agrupaciones y proyectos independientes: finanzas,
-  rifas por rangos, calendario de actividades, plantel y auditoría. Nació sirviendo a una agrupación
-  de carnaval y evoluciona hacia una plataforma reutilizable para cualquier colectivo organizado.
+  Un **sistema de gestión para organizaciones y proyectos independientes**: finanzas, recaudación
+  por rifas, calendario de actividades, gestión de integrantes y auditoría. Ya opera con
+  organizaciones reales y evoluciona hacia una plataforma multi-organización de la misma familia
+  de productos.
 
   ## Stack técnico
 
